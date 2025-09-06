@@ -26,6 +26,8 @@ public class LoginPageObject {
 	@FindBy(xpath="//button[@class='btn btn-info']")
 	public WebElement btnSubmit;
 	
+	@FindBy(xpath="//button[@class='btn btn-infoA']")
+	public WebElement btnSubmitA;
 
 	public void enterUserName(String username) {
 		txtUsername.sendKeys(username);
