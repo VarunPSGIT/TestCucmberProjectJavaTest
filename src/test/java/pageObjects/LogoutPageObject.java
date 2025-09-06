@@ -42,6 +42,7 @@ public class LoginPageObject {
 	public void performLogin(String username,String password) {
 		enterUserName(username);
 		enterPassword(password);
+		logout();
 	}
 	
 	
